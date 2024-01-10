@@ -1,0 +1,110 @@
+.kv {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    margin: 100px auto;
+    border-radius: 50%;
+    border-bottom: 4px solid black;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-delay: 3s; */
+
+}
+
+@keyframes animation {
+    from {
+        transform: rotate(45deg);
+
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* @keyframes animation {
+    0% {}
+
+    25% {}
+} */
+
+
+
+.name {
+    font-size: 62px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    text-transform: uppercase;
+
+    animation-name: firstName;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes firstName {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.border {
+    width: 900px;
+    height: 350px;
+    border: 3px dashed;
+    margin: 100px auto;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: tomato;
+
+    animation-name: bogirsoq;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bogirsoq {
+    0% {
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    25% {
+        margin-top: 0;
+        margin-left: 850px;
+        margin-right: 0;
+        margin-bottom: 300px;
+    }
+
+    50% {
+        margin-top: 300px;
+        margin-bottom: 0;
+        margin-left: 850px;
+        margin-right: 0;
+
+    }
+
+    75% {
+        margin-top: 300px;
+        margin-bottom: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+
+
+
+
